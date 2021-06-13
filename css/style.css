@@ -115,7 +115,8 @@ html body {
 
 .header1{
   height:480px;
- background-image:url("https://i.ibb.co/D5C45tB/1440-480.png");
+  margin-top: 120px
+  background-image:url("https://i.ibb.co/D5C45tB/1440-480.png");
   background-repeat:no-repeat;  /*이미지 반복배열 제한*/
   background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
   background-position:center center; /*정가운데 위치하도록함*/
