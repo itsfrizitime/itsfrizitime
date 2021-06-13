@@ -124,5 +124,9 @@ html body {
 
 .block{
   display: block;
-  max-width: 240px
+
+}
+
+.products img{
+  width: 240px;
 }
