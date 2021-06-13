@@ -120,20 +120,14 @@ html body {
 }
 
 
-
-
-.block{
-  display: block;
-  margin: 5px;
-}
-
 .products img{
   height: 240px;
 /*   display: inline-block; */
   overflow: hidden;
 }
 
-.margin10{
-/*  padding: 10px; 
-  */
+
+.imgcont{
+  display: inline-block;
+
 }
