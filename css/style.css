@@ -100,18 +100,6 @@ html body {
 .clearfix{
   clear:both;/*빈태그를 만들어 float를 해제*/
 }
-/* 하단바 */
-
-.footer{
-  text-align: center;
-  margin-top:40px;
-  margin-bottom:80px;
-}
-.footer a{
-  margin-left:10px;
-  margin-right:10px;
-  text-decoration:none;
-}
 
 .header1{
   height:480px;
@@ -132,5 +120,16 @@ html body {
 
 .imgcont{
   display: inline-block;
+}
 
+.footer{
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:80px;
+}
+
+.footer a{
+  margin-left:10px;
+  margin-right:10px;
+  text-decoration:none;
 }
