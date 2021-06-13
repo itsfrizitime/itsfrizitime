@@ -50,16 +50,17 @@ html body {
 }
 /* 헤더 */
 .header{
-  height:480px;
-  background-image:url("https://i.ibb.co/D5C45tB/1440-480.png");
+  /*height:480px;*/
+  /*background-image:url("https://i.ibb.co/D5C45tB/1440-480.png");*/
   background-repeat:no-repeat;  /*이미지 반복배열 제한*/
-  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
+  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/
   background-position:center center; /*정가운데 위치하도록함*/
 }
 
-.container{
-  height:800px; 
-  width: 100%;
+.cont{
+  height:800px;
+    margin-left: 0;
+    margin-right: 0;
   background-image: url("https://i.ibb.co/48zSTb5/1440-800.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,6 +73,16 @@ html body {
   background-image: url("https://i.ibb.co/KzfYXnv/560-720.png");
   float: left;
   vertical-align: middle;
+}
+.imgcont img{
+    -webkit-filter: grayscale(0%);
+  background-color: #1c1f23;
+}
+.imgcont img:hover{
+    -webkit-filter: grayscale(80%);
+    transition: 0.3s;
+  background-color: #fdfdfe;
+  /*opacity: 0.4*/
 }
 
 /* 제품 */
@@ -111,15 +122,28 @@ html body {
 
 .imgcont{
   display: inline-block;
+    padding-top: 10px;
+  /*position: absolute;*/
 }
+
+/*.imginfo{*/
+/*  width: 250px;*/
+/*  height: 250px;*/
+/*  position: relative;*/
+/*  top: 130px;*/
+/*  left: 50px;*/
+/*  z-index: -10;*/
+/*}*/
+
 
 .header1{
   height:480px;
+    margin-top: 120px;
   background-image:url("https://i.ibb.co/D5C45tB/1440-480.png");
   background-repeat:no-repeat;  /*이미지 반복배열 제한*/
-  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
+  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/
   background-position:center center; /*정가운데 위치하도록함*/
-}  
+}
 
 .footer{
   text-align: center;
