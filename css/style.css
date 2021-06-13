@@ -84,7 +84,7 @@ html body {
 }
 
 .product-list{
-  width:1000px;/*가로길이 (제품너비225+제품간격20)*3의 값*/
+  width:1000px;
   margin-left:auto;
   margin-right:auto;
 }
