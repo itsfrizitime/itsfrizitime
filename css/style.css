@@ -118,3 +118,11 @@ html body {
   background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
   background-position:center center; /*정가운데 위치하도록함*/
 }
+
+
+
+
+.block{
+  display: block;
+  max-width: 240px
+}
