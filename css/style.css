@@ -75,7 +75,7 @@ html body {
 
 /* 제품 */
 
-.products h3{
+.Gallery h3{
   font-size:24px;
   color:#545454;
   margin-top:60px;
@@ -84,7 +84,7 @@ html body {
 }
 
 .product-list{
-  width:735px;/*가로길이 (제품너비225+제품간격20)*3의 값*/
+  width:1120px;/*가로길이 (제품너비225+제품간격20)*3의 값*/
   margin-left:auto;
   margin-right:auto;
 }
