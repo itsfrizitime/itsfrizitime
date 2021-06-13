@@ -129,10 +129,10 @@ html body {
 
 .products img{
   height: 240px;
-  display: block;
+  display: inline-block;
   overflow: hidden;
 }
 
-.col-md-6{
-  margin: 10px 10px;
+.margin10{
+  margin: 10px;
 }
