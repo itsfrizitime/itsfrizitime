@@ -129,4 +129,7 @@ html body {
 
 .products img{
   width: 240px;
+  height: 240px;
+  display: block;
+  overflow: hidden;
 }
