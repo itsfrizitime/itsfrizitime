@@ -133,3 +133,7 @@ html body {
   display: block;
   overflow: hidden;
 }
+
+.col-md-6{
+  margin: 10px 10px;
+}
