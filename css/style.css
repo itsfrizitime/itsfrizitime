@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  margin: 0;
+  width: 100%;
+  font-family: "Helvetica";
+}
+
+.body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* 네비게이션바 */
+.navibar{
+  height:60px;/*네비게이션바의 세로폭*/
+  padding-left:30px;/*좌측간격*/
+  padding-right:30px;/*우측간격*/
+
+}
+.navibar #logo{
+  line-height:60px;/*글자의 세로폭을 늘려주는 속성*/
+}
+
+.navibar #logo img{
+  vertical-align: middle;/*부모요소의 중앙에 정렬*/
+}
+
+.navibar #menu{
+  float:right;/*오른쪽정렬*/
+  list-style:none;/*블릿삭제*/
+  padding:0;
+  margin:0;
+}
+.navibar #menu li{
+  float:left;/*li태그안에서 왼쪽정렬*/
+  margin-left:30px;/*글자끼리 간격30px*/
+  line-height:60px;
+}
+
+.navibar #menu li a {
+  color:#545454;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+}
+/* 헤더 */
+.header{
+  height:500px;
+  background-image:url("https://bakey.codeit.kr/files/629/images/hero_header.jpg");
+  background-repeat:no-repeat;  /*이미지 반복배열 제한*/
+  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
+  background-position:center center; /*정가운데 위치하도록함*/
+}
+
+/* 제품 */
+
+.products h3{
+  font-size:24px;
+  color:#545454;
+  margin-top:60px;
+  margin-bottom:60px;
+  text-align:center;
+}
+
+.product-list{
+  width:735px;/*가로길이 (제품너비225+제품간격20)*3의 값*/
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.product {
+  text-align:center;
+  width:225px;
+  display:block;/*a태그의 위치를 제대로 잡아주기 위한 속성*/
+  color:#545454;
+  text-decoration:none;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.product img{
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.product-name{
+  margin-top:20px;
+  margin-bottom:4px;
+}
+
+.clearfix{
+  clear:both;/*빈태그를 만들어 float를 해제*/
+}
+/* 하단바 */
+
+.footer{
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:80px;
+}
+.footer a{
+  margin-left:10px;
+  margin-right:10px;
+  text-decoration:none;
+}
+
+.header1{
+  height:500px;
+  background-image:url("https://bakey.codeit.kr/files/629/images/hero_header.jpg");
+  background-repeat:no-repeat;  /*이미지 반복배열 제한*/
+  background-size:cover; /*배경을 이미지로 완전히 덮이도록함*/ 
+  background-position:center center; /*정가운데 위치하도록함*/
+}
